@@ -187,7 +187,7 @@
         $("#submit-form").submit((e)=>{
             e.preventDefault()
             $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbzPlg-FEOeTrqMiq4eOMh21CS-kB5_bTCjrk-bTAT60rLD-8dZBdLJ6AxnMUe6og2EVsA/exec",
+                url:"#replace_url",
                 data:$("#submit-form").serialize(),
                 method:"post",
                 success:function (response){
